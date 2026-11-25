@@ -7,7 +7,7 @@ A responsive, accessible, framework-free health calculator. All calculations run
 ## Run locally
 
 1. Open `index.html` directly in a modern browser, or serve the folder with any static server.
-2. The compiled JavaScript is already included in `js/`.
+2. The compiled JavaScript bundle is already included as `app.js`.
 
 ## Compile TypeScript
 <img width="1875" height="848" alt="helth123" src="https://github.com/user-attachments/assets/bd9f480d-40c1-4e6a-a4e9-4d95ee0bf273" />
@@ -15,11 +15,11 @@ A responsive, accessible, framework-free health calculator. All calculations run
 Install Node.js 18+ and run:
 
 ```bash
-npm install
-npm run build
+pnpm install
+pnpm run build
 ```
 
-Use `npm run check` for a strict type check, or `npm run watch` while editing.
+Use `pnpm run check` for a strict type check, or `pnpm run watch` while editing.
 <img width="1807" height="819" alt="health metrix" src="https://github.com/user-attachments/assets/621a152c-c51b-4c61-bf6a-81b98547f73c" />
 
 ## Formula test cases
@@ -40,4 +40,4 @@ Ideal-weight formula results apply to adults at least 5 feet tall and are approx
 
 ## Project structure
 
-Source modules are in `src/`; compiled ES modules are in `js/`; base, responsive, and print styles are in `css/`. The application requires no backend, database, third-party API, or UI framework.
+The TypeScript source modules, compiled `app.js` bundle, and base, responsive, and print styles are stored at the project root. The application requires no backend, database, third-party API, or UI framework.
